@@ -16,7 +16,7 @@ The important thing thing to notice is the following change in both volume and r
 ![Difference in Performance](https://github.com/tateml0000/stock-analysis/blob/main/change.png)
 	
 ### Refactored Code
-To analyze our data we used two different methods, one using a single array and a variable that would hold a single piece of data and print out in the respective cell each time the code cycles through, while the refactored code used 3 arrays and would cycle through the calculations before printing the results. THe other advantage to the refactored code was combining the second macro, formatting the table, into the original code, this way it automatically reformat and analyze all in one sub. Shown below is the original code with no use of an index or more than 1 array. Here we can see how simple the code is.
+To analyze our data we used two different methods, one using a single array and a variable that would hold a single piece of data and print out in the respective cell each time the code cycles through, while the refactored code used 3 arrays and would cycle through the calculations before printing the results. THe other advantage to the refactored code was combining the second macro, formatting the table, into the original code, this way it automatically reformat and analyze all in one sub. Shown below is the original code with no use of an index for more than 1 array. Here we can see how simple the code is.
 
 ![Original Code](https://github.com/tateml0000/stock-analysis/blob/main/non%20index-non%20array.png)
 
@@ -26,8 +26,17 @@ Now below is the new code with the 3 other arrays created and another loop, but 
 
 ![Index Created](https://github.com/tateml0000/stock-analysis/blob/main/index.png)
 
+We can see that the refactored code is more complex, but instead of letting the for loop cycle us through the values, we used "tickerIndex" in a different loop, which allowed us to reference that within each array.
 
-To show the differences I will use the charts side by side of 2017 and 2018. The left one will be the original code while the right is the refoactored code run time.
+Next we can evaluate run times. The 4 run times will be shown below with the 2017/2018 original code on top and the 2017/2018 refactored below.
+
+![2017 Execution Times Original](https://github.com/tateml0000/stock-analysis/blob/main/2017%20Execution%20Times%20old%20code.png)
+![2018 Execution Times Original](https://github.com/tateml0000/stock-analysis/blob/main/2018%20Execution%20Times%20old%20Code.png)
+
+
+![2017 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2017.png)
+![2018 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2018.png)
+
 
 
 ## Summary
