@@ -17,10 +17,13 @@ The important thing thing to notice is the following change in both volume and r
 	
 ### Refactored Code
 To analyze our data we used two different methods, one using a single array and a variable that would hold a single piece of data and print out in the respective cell each time the code cycles through, while the refactored code used 3 arrays and would cycle through the calculations before printing the results. THe other advantage to the refactored code was combining the second macro, formatting the table, into the original code, this way it automatically reformat and analyze all in one sub. Shown below is the original code with no use of an index or more than 1 array. Here we can see how simple the code is.
+
 ![Original Code](https://github.com/tateml0000/stock-analysis/blob/main/non%20index-non%20array.png)
 
 Now below is the new code with the 3 other arrays created and another loop, but using the index as well as referencing an array.
+
 ![Arrays Created](https://github.com/tateml0000/stock-analysis/blob/main/arrays.png)
+
 ![Index Created](https://github.com/tateml0000/stock-analysis/blob/main/index.png)
 
 
