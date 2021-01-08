@@ -1,9 +1,11 @@
 # stock-analysis
-Analyses market trends in energy stocks
+Performing analysis on green energy stocks' market trends
 
 ## Overview
-
+	In this project I will be working with Steve, a recent finance graduate. We are helping Steve examine his parents investment into alternative energy, namely DAQO New Energy Corp (DQ), an alternative energy company that specializes in producing silicon wafers for solar panels. Steve wants to check 2 things throughout this project, the first being that his parents have chosen the right company to invest in. The second is whether it would be benefical to diversify thier portfolio by examining other green energy companies, over a 2 year performance. We will start by analyzing and organizing the data using VBA in excel and end by draw our own conclusions based on the data we were given.
+	
 ## Results
+
 
 ## Summary
   1.
