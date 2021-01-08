@@ -16,7 +16,15 @@ The important thing thing to notice is the following change in both volume and r
 ![Difference in Performance](https://github.com/tateml0000/stock-analysis/blob/main/change.png)
 	
 ### Refactored Code
-To analyze our data we used two different methods
+To analyze our data we used two different methods, one using a single array and a variable that would hold a single piece of data and print out in the respective cell each time the code cycles through, while the refactored code used 3 arrays and would cycle through the calculations before printing the results. THe other advantage to the refactored code was combining the second macro, formatting the table, into the original code, this way it automatically reformat and analyze all in one sub. Shown below is the original code with no use of an index or more than 1 array. Here we can see how simple the code is.
+![Original Code](https://github.com/tateml0000/stock-analysis/blob/main/non%20index-non%20array.png)
+
+Now below is the new code with the 3 other arrays created and another loop, but using the index as well as referencing an array.
+![Arrays Created](https://github.com/tateml0000/stock-analysis/blob/main/arrays.png)
+![Index Created](https://github.com/tateml0000/stock-analysis/blob/main/index.png)
+
+
+To show the differences I will use the charts side by side of 2017 and 2018. The left one will be the original code while the right is the refoactored code run time.
 
 
 ## Summary
@@ -25,6 +33,10 @@ To analyze our data we used two different methods
   2. All of these pros and cons were seen in our data other than the addition of new data for the refactored code. We had to take a lot of work from the original code and add in 3 new arrays and a tickerIndex. If this was the only project that Steve had to work on and nothing further, than I would suggest going with the original code. It was much quicker to write and reported the same results. But our refactored code combined two macros into 1 (the analysis and formatting) and is much quicker, in case Steve wants to evaluate different stocks or more of them.
 
 
-![2017 Execution Times](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2017.png)
-![2018 Execution Times](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2018.png)
-
+![2017 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2017.png)
+![2018 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2018.png)
+![2017 Execution Times Original](https://github.com/tateml0000/stock-analysis/blob/main/2017%20Execution%20Times%20old%20code.png)
+![2018 Execution Times Original](https://github.com/tateml0000/stock-analysis/blob/main/2018%20Execution%20Times%20old%20Code.png)
+![Arrays Created](https://github.com/tateml0000/stock-analysis/blob/main/arrays.png)
+![Index Created](https://github.com/tateml0000/stock-analysis/blob/main/index.png)
+![Original Code](https://github.com/tateml0000/stock-analysis/blob/main/non%20index-non%20array.png)
