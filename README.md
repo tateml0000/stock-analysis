@@ -37,18 +37,9 @@ Next we can evaluate run times. The 4 run times will be shown below with the 201
 ![2017 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2017.png)
 ![2018 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
-
+The difference is very clear that the run times of each were improved 5 fold just using the refactored code, and the small difference in the change in run time for 2017 to 2018 in the original code is due to the code being ran for the first time versus re run. This difference could be accounted for by the fact that the macro did not have to leave the nested for loop to print one line and then loop to the next index, in our refactored code we allowed the for loop to completely run through and stored each value in an array, then print the 3 arrays as a table. Ultimately saving us output time, which creates a significant difference.
 
 ## Summary
   1. The main advantage of refacorting code is seen in the run time. We are able to see a decrease of about 5-6 times using the refactored code. This difference isn't that noticable with the size of our data set, but if we were using this on the stock market with 100 times more data, this could save us minutes each time we run the code and allow for more immediate results and a smaller chance of our computers freezing or results being delayed. Another advantage seen here is the consolidation of two macros and the allowance for more flexibility in our code. If data were to be added we would simply need to add in the new tickers and change a few numbers to match the amount of tickers we are evaluting, while in the original code although the changes are just as easy, there are less options for storage of data compared to the arrays we use. A disadvantage we see in this method is initializing more variable and creating more arrays. This means this caused more work in the front end, but we see the flexibility and ease of it after it's written. These problems could be a simple spelling mistake or an array size wrong, but ultimately these issues would be quickly resolved while debugging.
 
   2. All of these pros and cons were seen in our data other than the addition of new data for the refactored code. We had to take a lot of work from the original code and add in 3 new arrays and a tickerIndex. If this was the only project that Steve had to work on and nothing further, than I would suggest going with the original code. It was much quicker to write and reported the same results. But our refactored code combined two macros into 1 (the analysis and formatting) and is much quicker, in case Steve wants to evaluate different stocks or more of them.
-
-
-![2017 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2017.png)
-![2018 Execution Times Refactored](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2018.png)
-![2017 Execution Times Original](https://github.com/tateml0000/stock-analysis/blob/main/2017%20Execution%20Times%20old%20code.png)
-![2018 Execution Times Original](https://github.com/tateml0000/stock-analysis/blob/main/2018%20Execution%20Times%20old%20Code.png)
-![Arrays Created](https://github.com/tateml0000/stock-analysis/blob/main/arrays.png)
-![Index Created](https://github.com/tateml0000/stock-analysis/blob/main/index.png)
-![Original Code](https://github.com/tateml0000/stock-analysis/blob/main/non%20index-non%20array.png)
