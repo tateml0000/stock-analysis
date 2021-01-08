@@ -8,12 +8,12 @@ Performing analysis on green energy stocks' market trends
 ### Stock performance
 	Looking at our results of the stock performances between the two years, we can see that stocks in 2017 generally outperformed stocks in 2018. There was a higher trade volume (how much the stocks were bought and sold) as well as better return values (the percentage increase in the stocks trading value) in the majority of them (Seen in the chart below).
 	
-	![2017 Execution Times](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2017.png)
-	![2018 Execution Times](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2018.png)
+![2017 Execution Times](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2017.png)
+![2018 Execution Times](https://github.com/tateml0000/stock-analysis/blob/main/VBA_Challenge_2018.png)
 	
 	The important thing thing to notice is the following change in both volume and return. In this chart below showing the difference in trading and performance of the stocks, there was a general increase in trading while a major decrease in return. This would mean, although the stocks became more popular they did not perform as well in these years. The limiting part of our results here is that this happens to many companies, as people start becoming aware of them, they need to start performing and may just be getting financing or maybe have gotten other investors due to green energy taking off as a whole, while still underperforming compared to their competitors. 
 	
-	![Difference in Performance](https://github.com/tateml0000/stock-analysis/blob/main/change.png)
+![Difference in Performance](https://github.com/tateml0000/stock-analysis/blob/main/change.png)
 	
 ### Code change
 	
