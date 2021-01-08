@@ -15,9 +15,9 @@ The important thing thing to notice is the following change in both volume and r
 	
 ![Difference in Performance](https://github.com/tateml0000/stock-analysis/blob/main/change.png)
 	
-### Code change
-	
-	
+### Refactored Code
+To analyze our data we used two different methods
+
 
 ## Summary
   1.
