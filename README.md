@@ -5,7 +5,11 @@ Performing analysis on green energy stocks' market trends
 	In this project I will be working with Steve, a recent finance graduate. We are helping Steve examine his parents investment into alternative energy, namely DAQO New Energy Corp (DQ), an alternative energy company that specializes in producing silicon wafers for solar panels. Steve wants to check 2 things throughout this project, the first being that his parents have chosen the right company to invest in. The second is whether it would be benefical to diversify thier portfolio by examining other green energy companies, over a 2 year performance. We will start by analyzing and organizing the data using VBA in excel and end by draw our own conclusions based on the data we were given.
 	
 ## Results
-
+	Looking at our results of the stock performances between the two years, we can see that stocks in 2017 generally outperformed stocks in 2018. There was a higher trade volume (how much the stocks were bought and sold) as well as better return values (the percentage increase in the stocks trading value) in the majority of them (Seen in the chart below).
+	***Insert 2017 and 2018 results picture
+	The important thing thing to notice is the following change in both volume and return. In this chart below showing the difference in trading and performance of the stocks, there was a general increase in trading while a major decrease in return. This would mean, although the stocks became more popular
+	***Insert change picture
+	
 
 ## Summary
   1.
